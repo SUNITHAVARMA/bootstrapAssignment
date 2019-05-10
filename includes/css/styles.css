@@ -172,7 +172,7 @@ h2{
   }
 /* section-2 */
 .section-2 .container-fluid{
-    background-image:url('/images/backgrd.png');
+    background-image:url(../../images/backgrd.png);
     background-size:cover;
     background-attachment:fixed;
 }
