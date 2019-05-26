@@ -230,6 +230,10 @@ h2{
     columns: #ef5651;
     font-size:20px;
 }
+.container-fluid{
+    background: aquamarine;
+   
+}
 /* --------------------------------------
    Layout
    -------------------------------------- */
@@ -267,8 +271,18 @@ h2{
 
 /* Portrait & landscape phone */
 @media screen and (max-width:768px){
+    .jumbotron {
+        padding: 1rem;
+        border-radius: 0;
+        margin: auto;
+    }
+    .container-fluid{
+        background: aquamarine;
+        margin-top: 40%;
+    }
 .section-1 .card{
     width:14rem;
+    margin: auto;
 }
 .section-4 .col-md-7 img{
     width:350px;
@@ -291,7 +305,10 @@ footer input[type="button"]{
         font-size:30px;
         padding-left:15%
     }
-    
+    .container-fluid{
+        background: aquamarine;
+        margin-top: 40%;
+    }
     #card1{
         padding:2% 5%;
     }
@@ -327,12 +344,21 @@ footer input[type="button"]{
         margin-top:21%;
     }
     .section-1 .card{
-        width:14rem;
+        width:20rem;
+        margin: auto;
     }
-   
+    .jumbotron {
+        padding: 1rem;
+        border-radius: 0;
+        margin: auto;
+    }
 }
 
 @media (max-width: 992px) {
+    .container-fluid{
+        background: aquamarine;
+        margin-top: 40%;
+    }
     .social a{
       font-size:4em;
       padding:2rem;
@@ -346,8 +372,14 @@ footer input[type="button"]{
     .container-fluid{
         margin-top:21%;
     }
-    .section-1 .card {
-        width: 24rem;
+    .section-1 .card{
+        width:20rem;
+        margin: auto;
+    }
+    .jumbotron {
+        padding: 1rem;
+        border-radius: 0;
+        margin: auto;
     }
     }
     @media (max-width: 768px) {
@@ -371,8 +403,9 @@ footer input[type="button"]{
       font-size:2.5em;
       padding:1.2rem;
       }
-      .section-1 .card {
-        width: 21rem;
+      .section-1 .card{
+        width:20rem;
+        margin: auto;
     }
     #card1{
         padding:2% 5%
@@ -383,10 +416,24 @@ footer input[type="button"]{
     .container-fluid{
         margin-top:21%;
     }
+    .jumbotron {
+        padding: 1rem;
+        border-radius: 0;
+        margin: auto;
+    }
     
    
     }
     @media (max-width: 576px) {
+        .container-fluid{
+            background: aquamarine;
+            margin-top: 40%;
+        }
+        .jumbotron {
+            padding: 1rem;
+            border-radius: 0;
+            margin: auto;
+        }
       .carousel-caption{
        top:40%;
       }
@@ -414,6 +461,10 @@ footer input[type="button"]{
     }
     .container-fluid{
         margin-top:21%;
+    }
+    .section-1 .card{
+        width:20rem;
+        margin: auto;
     }
     
    
